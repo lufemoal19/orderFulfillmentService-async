@@ -18,7 +18,7 @@ public class AsyncConfiguration {
         taskExecutor.setQueueCapacity(150);
         taskExecutor.setMaxPoolSize(4);
         taskExecutor.setThreadNamePrefix("AsyncTaskThread-");
-        taskExecutor.initialize();;
+        taskExecutor.initialize();
         return taskExecutor;
     }
 }
